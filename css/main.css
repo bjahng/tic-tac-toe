@@ -1,0 +1,68 @@
+.container {
+	text-align: center;
+}
+
+.container .text {
+	font-family: 'Abril Fatface', cursive;
+	color: hotpink;
+	font-size: 500%;
+	text-shadow: 2px 2px 0px #000;
+	margin-bottom: 50px;
+}
+
+.grid {
+	width: 440px;
+	height: 440px;
+	margin: auto;
+	text-align: center;
+}
+
+.box {
+	background: no-repeat center center;
+	height: 140px;
+	width: 140px;
+	margin: auto;
+	border-spacing: 0;
+	font-size: 0;
+}
+
+.row1, .row2, .row3 {
+	display: inline-block;
+	float: left;
+}
+
+.row1 {
+	border-bottom: 10px solid;
+}
+
+.row3 {
+	border-top: 10px solid;
+}
+
+.col_one {
+	border-right: 10px solid;
+}
+
+.col_three {
+	border-left: 10px solid;
+}
+
+.ex {
+	background-image: url("../images/PaintMelt-X.png");
+}
+
+.oh {
+	background-image: url("../images/balloon-o.png");
+}
+
+.new_game {
+	background-color: darkgrey;
+	font-size: 50%;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: 0;
+}
+
+.results {
+	margin-top: 25px;
+}
