@@ -5,9 +5,9 @@
 .container .text {
 	font-family: 'Abril Fatface', cursive;
 	color: hotpink;
-	font-size: 500%;
+	font-size: 400%;
 	text-shadow: 2px 2px 0px #000;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .grid {
@@ -26,24 +26,24 @@
 	font-size: 0;
 }
 
-.row1, .row2, .row3 {
+.r1, .r2, .r3 {
 	display: inline-block;
 	float: left;
 }
 
-.row1 {
+.r1 {
 	border-bottom: 10px solid;
 }
 
-.row3 {
+.r3 {
 	border-top: 10px solid;
 }
 
-.col_one {
+.c1 {
 	border-right: 10px solid;
 }
 
-.col_three {
+.c3 {
 	border-left: 10px solid;
 }
 
@@ -55,14 +55,20 @@
 	background-image: url("../images/balloon-o.png");
 }
 
+.results {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 50%;
+}
+
+.text p {
+	margin: 0;
+}
+
 .new_game {
 	background-color: darkgrey;
 	font-size: 50%;
 	font-weight: bold;
 	border-radius: 10px;
 	outline: 0;
-}
-
-.results {
-	margin-top: 25px;
 }
