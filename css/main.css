@@ -64,13 +64,14 @@
 .results p {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	color: #79b9d3;
+	color: #000;
+	text-shadow: 2px 2px 0px #ff69b4;
 	font-size: 400%;
 }
 
 .new_game {
 	color: #ff69b4;
-	background-color: #79b9d3;
+	background-color: #101010;
 	font-size: 180%;
 	font-weight: 700;
 	border-radius: 10px;
