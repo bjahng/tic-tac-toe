@@ -1,13 +1,14 @@
 .container {
 	text-align: center;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 0px #000;
 }
 
 .container .text {
-	font-family: 'Abril Fatface', cursive;
-	color: hotpink;
-	font-size: 400%;
-	text-shadow: 2px 2px 0px #000;
-	margin-bottom: 30px;
+	font-size: 500%;
+	color: #ff69b4;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .grid {
@@ -56,19 +57,22 @@
 }
 
 .results {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-size: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.text p {
-	margin: 0;
+.results p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #79b9d3;
+	font-size: 400%;
 }
 
 .new_game {
-	background-color: darkgrey;
-	font-size: 50%;
-	font-weight: bold;
+	color: #ff69b4;
+	background-color: #79b9d3;
+	font-size: 180%;
+	font-weight: 700;
 	border-radius: 10px;
 	outline: 0;
 }
